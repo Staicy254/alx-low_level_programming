@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * Description: main - prints out a string stdout
+ * Description: main - prints out a string stdout.
  * Return: 0 if success.
  */
-Int main (void)
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
-Return (0);
+return (0);
 }
