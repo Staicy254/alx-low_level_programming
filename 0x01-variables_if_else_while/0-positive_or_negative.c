@@ -3,15 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ *main - Determine if n = +ve number OR -ve OR zero
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
-
-int main(void)
-{
-    return (0);
-}
 
 int main(void)
 {
@@ -30,6 +25,7 @@ printf("%d is %s\n", n, "negative");
 }
 else
 {
-printf("%d is %s\n", n, "zero");}
+printf("%d is %s\n", n, "zero");
+}
 return (0);
 }
