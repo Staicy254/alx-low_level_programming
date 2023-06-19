@@ -10,7 +10,7 @@ int main(void)
 {
 int w;
 
-for (w = 1; w < 10; w++)
+for (w = 48; w < 58; w++)
 {
 putchar(w);
 }
