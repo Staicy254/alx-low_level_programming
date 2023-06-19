@@ -8,19 +8,19 @@
 
 int main(void)
 {
-int z, y, x;
+int n, l, m;
 
-for (z = 48; z < 58; z++)
+for (n = 48; n < 58; n++)
 {
-for (y = 49; y < 58; y++)
+for (l = 49; l < 58; l++)
 {
-for (x = 50; x < 58; x++)
+for (m = 50; m < 58; x++)
 
-putchar(z);
-putchar(y);
-putchar(x);
+putchar(n);
+putchar(l);
+putchar(m);
 
-if (z != 55 || y != 56)
+if (n != 55 || l != 56)
 {
 putchar(',');
 }
