@@ -10,16 +10,16 @@ int main(void)
 {
 int w, a;
 
-for (w = 49; w <= 56; w++)
+for (w = 48; w <= 56; w++)
 {
 for (a = 49; a <= 57; a++)
 {
-if (a > w)
+for (a > w)
 {
 putchar(w);
-putchar(a);
+putchar(n);
 
-if (w != 56 || a != 57)
+if (w != 56; || a != 57)
 {
 putchar(',');
 putchar(' ');
