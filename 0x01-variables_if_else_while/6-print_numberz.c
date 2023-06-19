@@ -8,12 +8,13 @@
 
 int main(void)
 {
-int a,
+int w;
 
-for (a = 1; a <=10; a++);
-
+for (w = 1; w < 10; w++)
 {
-putchar ('\n');
+putchar(w);
 }
+
+putchar ('\n');
 return (0);
 }
