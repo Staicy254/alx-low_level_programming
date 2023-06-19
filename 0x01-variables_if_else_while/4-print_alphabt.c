@@ -7,20 +7,21 @@
  */
 
 int main(void)
-{int lowerCase = 'a';
 {
-while
-(lowerCase <= 'z');
-if (lowerCase == 'e' || lowerCase == 'q')
+char bt = 'a';
+
+while (bt <= 'z')
+
 {
-lowerCase += 1;
-}
-else
+if (bt == 'e' && bt == 'q')
+
 {
-putchar(lowerCase);
-lowerCase += 1;
+putchar(bt);
 }
+bt++;
 }
+
 putchar('\n');
+
 return (0);
 }
