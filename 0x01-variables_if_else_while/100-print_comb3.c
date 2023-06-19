@@ -23,7 +23,6 @@ putchar(x);
 if (z != 55 || y != 56)
 {
 putchar(',');
-putchar(' ');
 }
 }
 }
