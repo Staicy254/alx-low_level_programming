@@ -1,6 +1,4 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - Entry point
@@ -10,17 +8,12 @@
 
 int main(void)
 {
-int w;
+int a,
 
-for (w = 97; w < 123; w++)
-{
-if (w != 101 && w != 113)
+for (a = 1; a <=10; a++);
 
 {
-putchar (w);
-}
-}
 putchar ('\n');
-
+}
 return (0);
 }
