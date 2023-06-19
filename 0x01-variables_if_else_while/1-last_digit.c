@@ -3,26 +3,26 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Return: 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-int n;
-int lastno;
+int n, lastno;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastno = n % 10;
+
 if (lastno > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, lastno);
 }
 else if (lastno == 0)
 {
-printf("Last digit of 98 is %d and is ", n % 10);
+printf("Last digit of %d is %d and is 0\n", n, lastno);
 }
 else if (lastno < 6 && lastno != 0)
 {
