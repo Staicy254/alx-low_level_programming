@@ -1,22 +1,20 @@
-100 - main.c
-
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code.
+ * main - Prints natural numbers below 1024 that are
+ * multiplies of 3 or 5
  *
  * Return: Always 0.
-*/
-
+ */
 int main(void)
 {
-print_times_table(3);
-_putchar('\n');
-print_times_table(5);
-_putchar('\n');
-print_times_table(98);
-_putchar('\n');
-print_times_table(12);
+	int a, b;
 
-return (0);
+	for (a = 1; a < 1024; a++)
+	{
+		if ((a % 3) == 0 || (a % 5) == 0)
+			b += a;
+	}
+	printf("%d\n", b);
+	return (0);
 }
