@@ -4,7 +4,7 @@
  * _isdigit - numbers
  * @c: character to check
  *
- * Return: 1 if success, otherwise 0
+ * Return: 1 or 0
  */
 
 int _isdigit(int c)
