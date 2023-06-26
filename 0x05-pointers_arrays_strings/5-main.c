@@ -1,21 +1,17 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - derefencing pointers
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-   int n;
-   int *p;
+    char s[10] = "My School";
 
-   n = 98;
-   p = &n;
-   printf("Value of 'n': %d\n", n);
-   printf("Address of 'n': %p\n", &n);
-   printf("Value of 'p': %p\n", p);
-   *p = 402;
-   printf("Value of 'n': %d\n", n);
-   return (0);
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
+    return (0);
 }
