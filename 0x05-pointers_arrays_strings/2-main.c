@@ -1,14 +1,18 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - printing the size, in bytes, of a pointer
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-   int *p;
+    char *str;
+    int len;
 
-   printf("Size of pointer: %lu\n", sizeof(p));
-   return (0);
+    str = "My first strlen!";
+    len = _strlen(str);
+    printf("%d\n", len);
+    return (0);
 }
