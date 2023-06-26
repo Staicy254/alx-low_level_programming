@@ -1,16 +1,20 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - addresses of variables
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-   char c;
-   int n;
+    int a;
+    int b;
 
-   printf("Address of variable 'c': %p\n", &c);
-   printf("Address of variable 'n': %p\n", &n);
-   return (0);
+    a = 98;
+    b = 42;
+    printf("a=%d, b=%d\n", a, b);
+    swap_int(&a, &b);
+    printf("a=%d, b=%d\n", a, b);
+    return (0);
 }
