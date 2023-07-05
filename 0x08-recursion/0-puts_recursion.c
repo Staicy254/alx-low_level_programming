@@ -5,7 +5,8 @@
  * @s: input
  * Return: Always 0 (Success)
  */
-int _putchar(char c);
+
+int _putchar(char s);
 
 void _puts_recursion(char *s)
 {
