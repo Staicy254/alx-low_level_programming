@@ -16,7 +16,7 @@ unsigned long int exclusive = n ^ m;
 
 for (w = 63; w >= 0; w--)
 {
-current = exclusive >> i;
+current = exclusive >> w;
 if (current & 1)
 count++;
 }
